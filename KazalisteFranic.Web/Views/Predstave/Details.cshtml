@@ -1,0 +1,66 @@
+﻿@model Predstava
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+@if (Model != null)
+{
+
+    <div>
+        <h4>Glumac</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                ID
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt>
+                Naslov
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Naslov)
+            </dd>
+            <dt>
+                Sadržaj
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Sadrzaj)
+            </dd>
+            <dt>
+                Datum
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Datum)
+            </dd>
+            <dt>
+                Cijena
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Cijena) kn
+            </dd>
+            <dt>
+                Redatelj
+            </dt>
+            <dd>
+                <a asp-action="DetailsRedatelj" asp-route-id="@Model.RedateljId">@Model?.Redatelj?.FullIme</a>
+            </dd>            
+
+        </dl>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Uredi</a>
+        </div>
+    </div>
+
+}
+else
+{
+    <div class="alert alert-danger">
+        Nije odabran ispravni ID klijenta.
+    </div>
+
+}

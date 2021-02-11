@@ -1,0 +1,15 @@
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.DAL.deps.json
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.DAL.dll
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.DAL.pdb
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.csprojAssemblyReference.cache
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.AssemblyInfoInputs.cache
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.AssemblyInfo.cs
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.dll
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.pdb
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.DAL.runtimeconfig.json
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.DAL.runtimeconfig.dev.json
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.Model.dll
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\bin\Debug\netcoreapp2.1\KazalisteFranic.Model.pdb
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.csproj.CopyComplete
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.genruntimeconfig.cache
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.DAL\obj\Debug\netcoreapp2.1\KazalisteFranic.DAL.csproj.CoreCompileInputs.cache

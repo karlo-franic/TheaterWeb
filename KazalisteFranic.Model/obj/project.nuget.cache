@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "eueHr79S28HmGjygTbmHqmRzbmxb4tj9ndgSylSQmJfAMgbqEeGrRcG6yzbGvpwqxeZqbVdLw4xHA3oefTwgyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZLATA\\source\\repos\\KazalisteFranic\\KazalisteFranic.Model\\KazalisteFranic.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.1.1\\microsoft.aspnetcore.cryptography.internal.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\2.1.1\\microsoft.aspnetcore.cryptography.keyderivation.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.1\\microsoft.extensions.configuration.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.1\\microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.1\\microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.1\\microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.identity.core\\2.1.1\\microsoft.extensions.identity.core.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.identity.stores\\2.1.1\\microsoft.extensions.identity.stores.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.1\\microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\ZLATA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

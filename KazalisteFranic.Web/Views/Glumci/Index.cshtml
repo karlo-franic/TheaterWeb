@@ -1,0 +1,40 @@
+﻿@model List<Glumac>
+
+@{
+    ViewData["Title"] = "Ansambl";
+}
+
+<h2>Ansambl</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Create" class="btn btn-success pull-right">Novi Glumac</a>
+    </div>
+</div>
+
+<table style="margin-top: 20px;" class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Citat</th>
+            <th>Akademija</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">@item.FullIme</a>
+                </td>
+                <td style="font-style: italic;">@item.Citat</td>
+                <td>@item.Diplomirao?.Naziv</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">[edit]</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

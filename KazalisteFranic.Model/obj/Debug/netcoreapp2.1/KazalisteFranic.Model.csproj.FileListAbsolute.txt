@@ -1,0 +1,9 @@
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\bin\Debug\netcoreapp2.1\KazalisteFranic.Model.deps.json
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\bin\Debug\netcoreapp2.1\KazalisteFranic.Model.dll
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\bin\Debug\netcoreapp2.1\KazalisteFranic.Model.pdb
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.csprojAssemblyReference.cache
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.AssemblyInfoInputs.cache
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.AssemblyInfo.cs
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.dll
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.pdb
+C:\Users\ZLATA\source\repos\KazalisteFranic\KazalisteFranic.Model\obj\Debug\netcoreapp2.1\KazalisteFranic.Model.csproj.CoreCompileInputs.cache

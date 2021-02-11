@@ -1,0 +1,65 @@
+﻿@model Redatelj
+
+@{
+    ViewData["Title"] = "DetailsRedatelj";
+}
+
+<h2>DetailsRedatelj</h2>
+
+@if (Model != null)
+{
+
+    <div>
+        <h4>Redatelj</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                ID
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt>
+                Ime
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Ime)
+            </dd>
+            <dt>
+                Prezime
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Prezime)
+            </dd>
+            <dt>
+                Spol
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Spol)
+            </dd>
+            <dt>
+                Akademija
+            </dt>
+            <dd>
+                @Model?.Diplomirao?.Naziv
+            </dd>
+            <dt>
+                Predstave
+            </dt>
+            
+            @foreach (var predstava in ViewBag.SvePredstaveRedatelja) 
+            {
+                <dd>@predstava</dd>
+            }
+        
+        </dl>
+    </div>
+
+}
+else
+{
+    <div class="alert alert-danger">
+        Nije odabran ispravni ID klijenta.
+    </div>
+
+}

@@ -1,0 +1,49 @@
+﻿@model Glumac
+
+<div class="form-group">
+    <label class="control-label">Ime</label>
+    <input asp-for="Ime" class="form-control" />
+    <span asp-validation-for="Ime" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label">Prezime</label>
+    <input asp-for="Prezime" class="form-control" />
+    <span asp-validation-for="Prezime" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label">Spol</label>
+    <input asp-for="Spol" class="form-control" />
+    <span asp-validation-for="Spol" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label">Citat</label>
+    <input asp-for="Citat" class="form-control" />
+    <span asp-validation-for="Citat" class="text-danger"></span>
+</div>
+<div class="form-group">
+    <label class="control-label">Akademija</label>
+    <select asp-for="AkademijaId" asp-items="ViewBag.PossibleAkadem" class="form-control"></select>
+</div>
+
+@{
+    // Malo hacky, ali funkcionira dobro za sve zapadne kulture, primjer moćnijih kultura su US ili RH.
+    var pattern = System.Threading.Thread.CurrentThread.CurrentCulture.DateTimeFormat.ShortDatePattern.ToLower();
+    pattern = pattern.Replace("DD", "D").Replace("D", "DD");
+    pattern = pattern.Replace("MM", "M").Replace("M", "MM");
+}
+<!--
+<div class="form-group">
+    <label class="control-label">Datum rođenja</label>
+    <div class="input-group date" data-provide="datepicker"
+         data-date-format="@pattern">
+        <input asp-for="DateOfBirth" type="text" class="form-control">
+        <div class="input-group-addon">
+            <span class="glyphicon glyphicon-th"></span>
+        </div>
+    </div>
+    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+</div>
+    -->
+<div class="form-group">
+    <input type="submit" value="Spremi" class="btn btn-default" />
+</div>

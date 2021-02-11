@@ -1,0 +1,41 @@
+﻿@model List<Predstava>
+
+@{
+    ViewData["Title"] = "Predstave";
+}
+
+<h2>Predstave</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Create" class="btn btn-success pull-right">Nova Predstava</a>
+    </div>
+</div>
+
+<table style="margin-top: 20px;" class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Naslov</th>
+            <th>Datum</th>
+            <th>Cijena</th>
+            <th>Redatelj</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">@item.Naslov</a>
+            </td>
+            <td>@item.Datum.ToString("dd/MM/yyyy")</td>
+            <td>@item.Cijena kn</td>
+            <td><a asp-action="DetailsRedatelj" asp-route-id="@item.RedateljId">@item?.Redatelj?.FullIme</a></td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">[edit]</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

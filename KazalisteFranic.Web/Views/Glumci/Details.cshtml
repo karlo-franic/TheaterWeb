@@ -1,0 +1,65 @@
+﻿@model Glumac
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+@if (Model != null)
+{
+
+<div>
+    <h4>Glumac</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            ID
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            Ime
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+        <dt>
+            Prezime
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Prezime)
+        </dd>
+        <dt>
+            Spol
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Spol)
+        </dd>
+        <dt>
+            Citat
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Citat)
+        </dd>
+        <dt>
+            Akademija
+        </dt>
+        <dd>
+            @Model?.Diplomirao?.Naziv
+        </dd>
+    </dl>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Uredi</a>
+    </div>
+</div>
+
+}
+else
+{
+    <div class="alert alert-danger">
+        Nije odabran ispravni ID klijenta.
+    </div>
+
+}
